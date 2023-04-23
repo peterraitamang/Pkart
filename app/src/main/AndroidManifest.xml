@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Pkart"
         tools:targetApi="31">
         <activity
+            android:name=".ProductDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".CategoryActivity"
             android:exported="false" />
         <activity
